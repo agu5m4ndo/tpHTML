@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurantes Argentina</title>
+    <!--CDN Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <!--CDN Bootstrap ICONS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <!--ICON-->
+        <a class="navbar-brand" href="/">Restaurantes Argentina</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="/">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Categorías
+              </a>
+              <div class="dropdown-menu" aria-labelledby="categoriasDropdown">
+                <a class="dropdown-item" href="#mariscos">Mariscos</a>
+                <a class="dropdown-item" href="#pizzeria">Pizza</a>
+                <a class="dropdown-item" href="#cafeteria">Café</a>
+                <a class="dropdown-item" href="#parrilla">Asados</a>
+              </div>
+            </li>
+          </ul>
+
+          <div class="d-md-none">
+            <ul class="navbar-nav me-auto-mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="">Ticket</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Perfil</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-none d-md-flex gap-2">
+            <a class="nav-item nav-link p-1" href="">
+              <!--Tecket-->
+              <i class="bi bi-basket" style="font-size: 1.2rem"></i>
+            </a>
+            <a class="nav-item nav-link p-1" href="">
+              <!--Usuario-->
+              <i class="bi bi-person" style="font-size: 1.2rem"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!--MOBILE-->
+          <img
+            src="https://img.freepik.com/free-photo/high-angle-colorful-post-its-laptop_23-2149362875.jpg?w=360&t=st=1697917469~exp=1697918069~hmac=34d4f76b68c40650affae76492da41705fe6dbfcfaa79f70c6fedf0050fdfdd2"
+            class="d-block d-md-none w-100"
+            alt="..." />
+          <!--DESKTOP-->
+          <img
+            src="https://img.freepik.com/foto-gratis/vista-superior-rebanadas-pizza-salami_23-2148765311.jpg?w=740&t=st=1697567074~exp=1697567674~hmac=d8cb033c5a3d880cf9bab79afb3e0ce3186b2fe6cffbb70ba32b550c3145b911"
+            class="d-none d-md-block w-100"
+            alt="..." />
+          <div class="carousel-caption d-block text-start">
+            <h3 class="fs-1">Aplicación de restaurantes</h3>
+            <p>
+              Conoce los mejores restaurantes de Argentina y disfruta de sus
+              platillos.
+            </p>
+            <p>
+              <a class="btn btn-lg btn-primary" href="#selector-categorias"
+                >Conocé más</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!--MOBILE-->
+          <img
+            src="https://img.freepik.com/foto-gratis/ensalada-fresca-alto-angulo-placa-negra_23-2148537225.jpg?w=360&t=st=1697569788~exp=1697570388~hmac=149d142fb0811381c641296448c74b898907f41baedee01d1842a554442df78f"
+            class="d-block d-md-none w-100"
+            alt="..." />
+          <img
+            src="https://img.freepik.com/foto-gratis/ensalada-tomate-microgreens-mixtos-queso-camembert_2829-4817.jpg?w=740&t=st=1697568438~exp=1697569038~hmac=ae47d51ddf8a0a0c1fc039890bfe480a4acb67051de92f0b5ff1b3c232fe1cf6"
+            class="d-none d-md-block w-100"
+            alt="..." />
+          <div class="carousel-caption d-block">
+            <h3 class="fs-1">Los mejores platillos</h3>
+            <p>
+              Disfruta de todo lo que tienen para ofrecer los mejores
+              restaurantes de Argentina.
+            </p>
+            <p>
+              <a class="btn btn-lg btn-primary" href="#selector-categorias"
+                >Conocé más</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!--MOBILE-->
+          <img
+            src="https://img.freepik.com/foto-gratis/hombre-preparando-comida-llevar-entrega_23-2149025793.jpg?size=626&ext=jpg&ga=GA1.1.1295227383.1694032406&semt=sph"
+            class="d-block d-md-none w-100"
+            alt="..." />
+          <img
+            src="https://img.freepik.com/foto-gratis/repartidor-chaqueta-amarilla-abriendo-mochila-amarilla-tomando-bolsa-orden_1268-16751.jpg?w=740&t=st=1697567180~exp=1697567780~hmac=3931fef8c50408ab606369bb8ef64557cff025aa221d2bff8b1f96f722b32130"
+            class="d-none d-md-block w-100"
+            alt="..." />
+          <div class="carousel-caption d-block text-end">
+            <!-- compara restaurantes -->
+            <h3 class="fs-1">Compara tus restaurantes favoritos</h3>
+            <p>
+              Compara a tus restaurantes preferidos de Argentina y elige el que
+              más te guste.
+            </p>
+            <p>
+              <a class="btn btn-lg btn-primary" href="#selector-categorias"
+                >Conocé más</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <main>
+      <!--PRODUCTOS-->
+      <!--SELECTOR DE CATEGORÍAS-->
+
+      <section class="container" id="selector-categorias">
+        <p class="fs-2">Seleccionar categoría</p>
+        <div class="row gap-4">
+          <div class="col d-flex justify-content-center p-0">
+            <a
+              href="#mariscos"
+              class="border border-1 border-black d-flex gap-1 align-items-center rounded p-1 text-decoration-none">
+              <img
+                src="/assets/categorias/pizza.png"
+                alt=" Por hacer"
+                style="width: 25px; height: 25px" />
+              <span class="fs-4 text-dark-emphasis">Mariscos</span>
+            </a>
+          </div>
+          <div class="col d-flex justify-content-center p-0">
+            <a
+              href="#pizzeria"
+              class="border border-1 border-black d-flex gap-1 align-items-center rounded p-1 text-decoration-none">
+              <img
+                src="/assets/categorias/ensalada.png"
+                alt=" En Producción"
+                style="width: 25px; height: 25px" />
+              <span class="fs-4 text-dark-emphasis">Pizzería</span>
+            </a>
+          </div>
+          <div class="col d-flex justify-content-center p-0">
+            <a
+              href="#cafeteria"
+              class="border border-1 border-black d-flex gap-1 align-items-center rounded p-1 text-decoration-none">
+              <img
+                src="/assets/categorias/sandwich.png"
+                alt="Por Testear"
+                style="width: 25px; height: 25px" />
+              <span class="fs-4 text-dark-emphasis">Cafetería</span>
+            </a>
+          </div>
+          <div class="col d-flex justify-content-center p-0">
+            <a
+              href="#parrilla"
+              class="border border-1 border-black d-flex gap-1 align-items-center rounded p-1 text-decoration-none">
+              <img
+                src="/assets/categorias/bebida.png"
+                alt="Completada"
+                style="width: 25px; height: 25px" />
+              <span class="fs-4 text-dark-emphasis">Parrilla</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--CATEGORÍAS Tareas-->
+      <section class="container-fluid" id="categorias">
+        <section class="text-center mb-5" id="porHacer">
+          <h3 class="display-6">Mariscos</h3>
+          <div
+            class="row gap-4 gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <!--PRODUCTO-->
+            <div class="col">
+              <div id="mariscos" class="card h-100"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="text-center mb-5" id="enProduccions">
+          <h3 class="display-6">Pizzería</h3>
+          <div
+            class="row gap-4 gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <!--PRODUCTO-->
+            <div class="col">
+              <div id="pizzeria" class="card h-100"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="text-center mb-5" id="porTestear">
+          <h3 class="display-6">Cafetería</h3>
+          <div
+            class="row gap-4 gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <!--PRODUCTO-->
+            <div class="col">
+              <div id="cafeteria" class="card h-100"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="text-center mb-5" id="completada">
+          <h3 class="display-6">Parrilla</h3>
+          <div
+            class="row gap-4 gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <!--PRODUCTO-->
+            <div class="col">
+              <div id="parrilla" class="card h-100"></div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+            >Colmena Tec</a
+          >
+          <span class="mb-3 mb-md-0 text-body-secondary"
+            >&copy; 2023 El Atareado, Inc</span
+          >
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-body-secondary" href=""
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href=""
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href=""
+              ><i class="bi bi-twitter-x"></i
+            ></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script type="module" src="./lib/pages/home.js"></script>
+    <!--CDN Bootstrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+  </body>
+</html>

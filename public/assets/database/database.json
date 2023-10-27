@@ -1,0 +1,47 @@
+{
+    "restaurantes": [{
+            "id": 1,
+            "nombre": "Restaurante del Mar",
+            "categoria": "mariscos",
+            "descripcion": "Nuestro restaurante especializado en mariscos te ofrece una amplia variedad de platillos frescos y deliciosos, desde langostas y camarones hasta pescado a la parrilla.",
+            "estrellas": 3.5,
+            "imagen": "https://images.pexels.com/photos/370984/pexels-photo-370984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "responsable": "Eduardo Martínez",
+            "url": "restaurante-del-mar",
+            "estado": "Abierto"
+        },
+        {
+            "id": 2,
+            "nombre": "Pizzería Bella Italia",
+            "categoria": "pizzeria",
+            "descripcion": "Saborea auténticas pizzas italianas con una amplia gama de coberturas y tamaños. Te garantizamos una experiencia de sabor inolvidable.",
+            "estrellas": 5,
+            "imagen": "https://images.pexels.com/photos/2540342/pexels-photo-2540342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "responsable": "Maria González",
+            "url": "pizzeria-bella-italia",
+            "estado": "Abierto"
+        },
+        {
+            "id": 3,
+            "nombre": "Cafetería La Aromática",
+            "categoria": "cafeteria",
+            "descripcion": "Disfruta de una amplia selección de cafés, tés y repostería fresca en nuestro acogedor café. Perfecto para una pausa relajante.",
+            "estrellas": 4.5,
+            "imagen": "https://images.pexels.com/photos/1603653/pexels-photo-1603653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "responsable": "Carlos Pérez",
+            "url": "cafeteria-la-aromatica",
+            "estado": "Abierto"
+        },
+        {
+            "id": 4,
+            "nombre": "Asador Criollo",
+            "categoria": "parrilla",
+            "descripcion": "Te ofrecemos las mejores carnes a la parrilla en un ambiente rústico y acogedor. Nuestros cortes de carne son famosos en la región.",
+            "estrellas": 4.0,
+            "imagen": "https://images.pexels.com/photos/1664574/pexels-photo-1664574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "responsable": "Juan Ramírez",
+            "url": "asador-criollo",
+            "estado": "Abierto"
+        }
+    ]
+}
