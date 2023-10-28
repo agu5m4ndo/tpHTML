@@ -16,7 +16,7 @@
             "categoria": "pizzeria",
             "descripcion": "Saborea auténticas pizzas italianas con una amplia gama de coberturas y tamaños. Te garantizamos una experiencia de sabor inolvidable.",
             "estrellas": 5,
-            "imagen": "https://images.pexels.com/photos/2540342/pexels-photo-2540342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "imagen": "https://images.pexels.com/photos/13814644/pexels-photo-13814644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "responsable": "Maria González",
             "url": "pizzeria-bella-italia",
             "estado": "Abierto"
@@ -27,7 +27,7 @@
             "categoria": "cafeteria",
             "descripcion": "Disfruta de una amplia selección de cafés, tés y repostería fresca en nuestro acogedor café. Perfecto para una pausa relajante.",
             "estrellas": 4.5,
-            "imagen": "https://images.pexels.com/photos/1603653/pexels-photo-1603653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "imagen": "https://images.pexels.com/photos/12821517/pexels-photo-12821517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "responsable": "Carlos Pérez",
             "url": "cafeteria-la-aromatica",
             "estado": "Abierto"
@@ -38,7 +38,7 @@
             "categoria": "parrilla",
             "descripcion": "Te ofrecemos las mejores carnes a la parrilla en un ambiente rústico y acogedor. Nuestros cortes de carne son famosos en la región.",
             "estrellas": 4.0,
-            "imagen": "https://images.pexels.com/photos/1664574/pexels-photo-1664574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "imagen": "https://images.pexels.com/photos/983373/pexels-photo-983373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "responsable": "Juan Ramírez",
             "url": "asador-criollo",
             "estado": "Abierto"
